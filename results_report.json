@@ -1,0 +1,40 @@
+{
+  "experiment_date": "2026-03-19",
+  "models": {
+    "traditional": {
+      "parameters": 109386,
+      "accuracy": 96.97,
+      "training_time": 36,
+      "model_size_kb": 426,
+      "compression": 1.0
+    },
+    "power_32": {
+      "parameters": 1555,
+      "accuracy": 68.63,
+      "training_time": 110,
+      "model_size_kb": 6,
+      "compression": 70.3
+    },
+    "power_64": {
+      "parameters": 5587,
+      "accuracy": 78.88,
+      "training_time": 1963,
+      "model_size_kb": 22,
+      "compression": 19.6
+    },
+    "power_96": {
+      "parameters": 12307,
+      "accuracy": 78.4,
+      "training_time": 17238,
+      "model_size_kb": 48,
+      "compression": 8.9
+    }
+  },
+  "key_findings": [
+    "seed=64 achieves best balance (19.6x @ 78.88%)",
+    "Larger seeds (96) show overfitting",
+    "Sweet spot found at ~6k parameters",
+    "Training time scales non-linearly",
+    "20x compression with 18% accuracy drop"
+  ]
+}
