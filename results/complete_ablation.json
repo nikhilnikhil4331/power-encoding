@@ -1,0 +1,244 @@
+{
+  "MNIST": [
+    {
+      "name": "Traditional",
+      "params": 235914,
+      "effective_params": 235146,
+      "accuracy": 98.39,
+      "time": 218.1
+    },
+    {
+      "name": "Fourier-8",
+      "params": 1286,
+      "effective_params": 902,
+      "accuracy": 73.7,
+      "time": 425.3
+    },
+    {
+      "name": "Fourier-16",
+      "params": 1346,
+      "effective_params": 962,
+      "accuracy": 76.73,
+      "time": 606.6
+    },
+    {
+      "name": "Fourier-32",
+      "params": 1466,
+      "effective_params": 1082,
+      "accuracy": 80.01,
+      "time": 946.4
+    },
+    {
+      "name": "Fourier-64",
+      "params": 1706,
+      "effective_params": 1322,
+      "accuracy": 80.51,
+      "time": 1592.4
+    },
+    {
+      "name": "LoRA-r1",
+      "params": 2330,
+      "effective_params": 1946,
+      "accuracy": 45.98,
+      "time": 234.0
+    },
+    {
+      "name": "LoRA-r2",
+      "params": 3242,
+      "effective_params": 2858,
+      "accuracy": 58.77,
+      "time": 228.7
+    },
+    {
+      "name": "LoRA-r4",
+      "params": 5258,
+      "effective_params": 4874,
+      "accuracy": 85.03,
+      "time": 229.5
+    },
+    {
+      "name": "LoRA-r8",
+      "params": 9290,
+      "effective_params": 8906,
+      "accuracy": 94.95,
+      "time": 229.1
+    },
+    {
+      "name": "Hybrid-F8-r1",
+      "params": 2586,
+      "effective_params": 2454,
+      "accuracy": 86.2,
+      "time": 415.1
+    },
+    {
+      "name": "Hybrid-F16-r2",
+      "params": 3558,
+      "effective_params": 3486,
+      "accuracy": 91.34,
+      "time": 598.6
+    },
+    {
+      "name": "Hybrid-F32-r4",
+      "params": 5694,
+      "effective_params": 5742,
+      "accuracy": 93.97,
+      "time": 957.9
+    },
+    {
+      "name": "Pruned-50%",
+      "params": 235914,
+      "effective_params": 352266,
+      "accuracy": 98.53,
+      "time": 199.2
+    },
+    {
+      "name": "Pruned-90%",
+      "params": 235914,
+      "effective_params": 258878,
+      "accuracy": 97.96,
+      "time": 200.6
+    },
+    {
+      "name": "Pruned-95%",
+      "params": 235914,
+      "effective_params": 247205,
+      "accuracy": 97.39,
+      "time": 200.7
+    },
+    {
+      "name": "Quantized-8bit",
+      "params": 235914,
+      "effective_params": 469002,
+      "accuracy": 89.72,
+      "time": 236.0
+    },
+    {
+      "name": "Quantized-4bit",
+      "params": 235914,
+      "effective_params": 469002,
+      "accuracy": 88.46,
+      "time": 236.0
+    }
+  ],
+  "Fashion-MNIST": [
+    {
+      "name": "Traditional",
+      "params": 235914,
+      "effective_params": 235146,
+      "accuracy": 89.34,
+      "time": 203.0
+    },
+    {
+      "name": "Fourier-8",
+      "params": 1286,
+      "effective_params": 902,
+      "accuracy": 61.43,
+      "time": 404.8
+    },
+    {
+      "name": "Fourier-16",
+      "params": 1346,
+      "effective_params": 962,
+      "accuracy": 66.79,
+      "time": 574.1
+    },
+    {
+      "name": "Fourier-32",
+      "params": 1466,
+      "effective_params": 1082,
+      "accuracy": 66.91,
+      "time": 927.7
+    },
+    {
+      "name": "Fourier-64",
+      "params": 1706,
+      "effective_params": 1322,
+      "accuracy": 68.58,
+      "time": 1625.3
+    },
+    {
+      "name": "LoRA-r1",
+      "params": 2330,
+      "effective_params": 1946,
+      "accuracy": 54.64,
+      "time": 210.8
+    },
+    {
+      "name": "LoRA-r2",
+      "params": 3242,
+      "effective_params": 2858,
+      "accuracy": 68.89,
+      "time": 211.8
+    },
+    {
+      "name": "LoRA-r4",
+      "params": 5258,
+      "effective_params": 4874,
+      "accuracy": 81.6,
+      "time": 209.9
+    },
+    {
+      "name": "LoRA-r8",
+      "params": 9290,
+      "effective_params": 8906,
+      "accuracy": 86.11,
+      "time": 208.9
+    },
+    {
+      "name": "Hybrid-F8-r1",
+      "params": 2586,
+      "effective_params": 2454,
+      "accuracy": 76.27,
+      "time": 414.7
+    },
+    {
+      "name": "Hybrid-F16-r2",
+      "params": 3558,
+      "effective_params": 3486,
+      "accuracy": 80.55,
+      "time": 594.9
+    },
+    {
+      "name": "Hybrid-F32-r4",
+      "params": 5694,
+      "effective_params": 5742,
+      "accuracy": 84.08,
+      "time": 952.1
+    },
+    {
+      "name": "Pruned-50%",
+      "params": 235914,
+      "effective_params": 352266,
+      "accuracy": 89.11,
+      "time": 201.8
+    },
+    {
+      "name": "Pruned-90%",
+      "params": 235914,
+      "effective_params": 258878,
+      "accuracy": 88.31,
+      "time": 202.7
+    },
+    {
+      "name": "Pruned-95%",
+      "params": 235914,
+      "effective_params": 247205,
+      "accuracy": 87.6,
+      "time": 201.8
+    },
+    {
+      "name": "Quantized-8bit",
+      "params": 235914,
+      "effective_params": 469002,
+      "accuracy": 80.4,
+      "time": 236.2
+    },
+    {
+      "name": "Quantized-4bit",
+      "params": 235914,
+      "effective_params": 469002,
+      "accuracy": 79.77,
+      "time": 237.1
+    }
+  ]
+}
