@@ -1,0 +1,98 @@
+{
+  "MNIST": [
+    {
+      "name": "Traditional",
+      "params": 235914,
+      "accuracy": 98.36,
+      "time": 202.9
+    },
+    {
+      "name": "Fourier-16",
+      "params": 1346,
+      "accuracy": 78.82,
+      "time": 569.6
+    },
+    {
+      "name": "Fourier-32",
+      "params": 1466,
+      "accuracy": 78.77,
+      "time": 922.2
+    },
+    {
+      "name": "LoRA-r2",
+      "params": 3434,
+      "accuracy": 74.55,
+      "time": 226.6
+    },
+    {
+      "name": "LoRA-r4",
+      "params": 5642,
+      "accuracy": 89.34,
+      "time": 214.3
+    }
+  ],
+  "Fashion-MNIST": [
+    {
+      "name": "Traditional",
+      "params": 235914,
+      "accuracy": 89.29,
+      "time": 202.9
+    },
+    {
+      "name": "Fourier-16",
+      "params": 1346,
+      "accuracy": 66.62,
+      "time": 562.6
+    },
+    {
+      "name": "Fourier-32",
+      "params": 1466,
+      "accuracy": 67.15,
+      "time": 914.6
+    },
+    {
+      "name": "LoRA-r2",
+      "params": 3434,
+      "accuracy": 75.46,
+      "time": 206.7
+    },
+    {
+      "name": "LoRA-r4",
+      "params": 5642,
+      "accuracy": 83.4,
+      "time": 206.1
+    }
+  ],
+  "CIFAR-10": [
+    {
+      "name": "Traditional-CNN",
+      "params": 2193674,
+      "accuracy": 81.04,
+      "time": 263.4
+    },
+    {
+      "name": "Fourier-CNN-32",
+      "params": 95274,
+      "accuracy": 69.71,
+      "time": 653.0
+    },
+    {
+      "name": "Fourier-CNN-64",
+      "params": 95434,
+      "accuracy": 70.09,
+      "time": 1015.9
+    },
+    {
+      "name": "LoRA-CNN-r4",
+      "params": 128394,
+      "accuracy": 72.05,
+      "time": 266.1
+    },
+    {
+      "name": "LoRA-CNN-r8",
+      "params": 161674,
+      "accuracy": 76.7,
+      "time": 267.1
+    }
+  ]
+}

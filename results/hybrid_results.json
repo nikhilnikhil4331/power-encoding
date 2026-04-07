@@ -1,0 +1,78 @@
+{
+  "MNIST": [
+    {
+      "name": "Traditional",
+      "params": 235914,
+      "accuracy": 98.43,
+      "time": 270.9
+    },
+    {
+      "name": "Fourier-32",
+      "params": 1466,
+      "accuracy": 79.06,
+      "time": 1254.7
+    },
+    {
+      "name": "Enhanced-Fourier-32",
+      "params": 1566,
+      "accuracy": 79.42,
+      "time": 1957.8
+    },
+    {
+      "name": "LoRA-r4",
+      "params": 5642,
+      "accuracy": 89.47,
+      "time": 281.4
+    },
+    {
+      "name": "Hybrid-F16-r2",
+      "params": 3558,
+      "accuracy": 91.3,
+      "time": 800.1
+    },
+    {
+      "name": "Hybrid-F32-r4",
+      "params": 5694,
+      "accuracy": 93.62,
+      "time": 1287.7
+    }
+  ],
+  "Fashion-MNIST": [
+    {
+      "name": "Traditional",
+      "params": 235914,
+      "accuracy": 89.59,
+      "time": 270.6
+    },
+    {
+      "name": "Fourier-32",
+      "params": 1466,
+      "accuracy": 68.37,
+      "time": 1267.3
+    },
+    {
+      "name": "Enhanced-Fourier-32",
+      "params": 1566,
+      "accuracy": 67.75,
+      "time": 1984.8
+    },
+    {
+      "name": "LoRA-r4",
+      "params": 5642,
+      "accuracy": 83.46,
+      "time": 283.6
+    },
+    {
+      "name": "Hybrid-F16-r2",
+      "params": 3558,
+      "accuracy": 80.5,
+      "time": 800.5
+    },
+    {
+      "name": "Hybrid-F32-r4",
+      "params": 5694,
+      "accuracy": 83.95,
+      "time": 1233.5
+    }
+  ]
+}
